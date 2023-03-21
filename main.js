@@ -6,3 +6,12 @@ function plusClick(){
 
     document.getElementById("taltext").innerHTML = siffra
 }
+
+const minusknapp = document.getElementById("minus");
+minusknapp.addEventListener("click", minusClick)
+
+function minusClick(){
+    siffra--;
+    console.log("minusClick")
+    document.getElementById("taltext").innerHTML = siffra
+}
